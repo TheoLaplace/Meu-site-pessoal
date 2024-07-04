@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site Pessoal</title>
+    <style>
+        body {
+            font-family: 'Merriweather', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            color: #000000;
+        }
+        header, footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #000000;
+            color: #ffffff;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #ffffff;
+        }
+        .highlight {
+            color: #ff69b4; /* Cor para destacar itens, ajustável para céu e flores */
+        }
+        .container {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Meu Site Pessoal</h1>
+        <nav>
+            <a href="#biografia">Biografia</a>
+            <a href="#blog">Blog</a>
+            <a href="#galeria">Galeria de Mídias</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="biografia">
+            <h2>Biografia</h2>
+            <p>Escreva aqui uma breve biografia sobre você...</p>
+        </section>
+
+        <section id="blog">
+            <h2>Blog</h2>
+            <article>
+                <h3>Título do Artigo</h3>
+                <p>Conteúdo do artigo...</p>
+            </article>
+        </section>
+
+        <section id="galeria">
+            <h2>Galeria de Mídias</h2>
+            <div class="gallery">
+                <img src="imagem1.jpg" alt="Descrição da Imagem 1">
+                <img src="imagem2.jpg" alt="Descrição da Imagem 2">
+            </div>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <form>
+                <label for="name">Nome:</label><br>
+                <input type="text" id="name" name="name"><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br>
+                <label for="message">Mensagem:</label><br>
+                <textarea id="message" name="message"></textarea><br>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Meu Site Pessoal. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
